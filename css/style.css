@@ -1,0 +1,1081 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100%;
+    font-family: 14px;
+    line-height: 24px;
+    font-family: ;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: ;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+/* lucid css start Here */
+/* Header Css start */
+.header{
+    width: 100%;
+    background:url("../images/banner.png") center top no-repeat;
+    background-size:cover;
+}
+.main-menu {
+    width: 100%;
+    background-color: #313040;
+    position: fixed;
+}
+.main-menu .bg-light{
+    width: 100%;
+    background: transparent !important;
+}
+.main-menu .navbar-light .navbar-nav .nav-link.active {
+    background: url("../images/arrow.png") center bottom no-repeat;
+    background-size: auto;
+}
+.main-menu .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    text-transform: capitalize;
+    margin: 0px 0px 0px 20px;
+    font-size: 14px;
+}
+.main-menu .navbar-light .navbar-nav .nav-link:hover,.main-menu .navbar-light .navbar-nav .nav-link:focus {
+    background: url("../images/arrow.png") center bottom no-repeat;
+    background-size: auto;
+}
+.banner{
+    width: 38%;
+    padding: 130px 0px;
+}
+.banner h5{
+    font-size: 16px;
+    line-height: 28px;
+    color: #0D6EFD;
+    font-weight: 600;
+}
+.banner h1 {
+    width: ;
+    font-size: 45px;
+    line-height: 55px;
+    color: #fff;
+    font-weight: 400;
+    margin: 20px 0px;
+    
+}
+.banner p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #b4b4b4;
+    margin: 0px 0px;
+    padding: 31px 0px;
+}
+.banner .button-group .btn-primary {
+    padding: 14px 25px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    background-color: #0D6EFD;
+    transition: 2s;
+}
+.banner .button-group .btn-primary:hover{
+    background-color: transparent;
+    border: 1px solid #0D6EFD;
+}
+.banner .button-group .btn-Light{
+    padding: 14px 25px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    margin: 0px 0px 0px 10px;
+    transition: 2s;
+}
+.banner .button-group .btn-Light:hover{
+    background-color:#0D6EFD;
+}
+/* Header Css end */
+/* features css start */
+    .features{
+        width: 100%;
+        padding: 60px 0px;
+    }
+    .features .title {
+        width: 100%;
+        margin: 0px 0px 26px 0px;
+        text-align: center;
+    }
+    .inner-features {
+        width: 100%;
+        text-align: center;
+        padding: 8px 11px;
+        border-bottom: 1px solid #eee;
+    }
+
+    .inner-features .icons {
+        font-size: 50px;
+        line-height: 160px;
+        background: #fff;
+        color: #008ed6;
+        margin: 0px auto 20px;
+        display: block;
+        border: 1px solid #eee;
+        border-radius: 100%;
+        transition: 1s ease-in;
+        cursor: pointer;
+        width: 170px;
+        height: 170px;
+        margin: 0px auto;
+        transition: 1s;
+    }
+    .inner-features .icons:hover, .inner-features .icons:focus{
+        background: #008ed6;
+        color: #fff;
+}
+    .inner-features h4{
+        font-size: 24px;
+        line-height: 34px;
+        font-weight: 600;
+        margin: 0px 0px 20px 0px;
+    }
+    .inner-features p{
+        font-size: 16px;
+        line-height: 26px;
+        color: #b4b4b4;
+        font-weight: 600;
+        margin: 0px 0px 47px 0px ;
+    }
+
+/* features css end */
+/* about-logg css start */
+    .about-long{
+        width: 100%;
+        padding: 60px 0px;
+        margin: 30px 0px 0px 0px;
+    }
+    .about-long .title{
+        width: 100%;
+        margin: 60px 0px 0px 0px;
+    }
+    .about-long p {
+        margin: 24px 0px;
+        width: 83%;
+    }
+    .about-long ul {
+        width: 100%;
+        color: black;
+        display: block;
+    }
+    .about-long ul li{
+        list-style: none;
+        font-size: 16px;
+        line-height: 26px;
+        color: black;
+        font-weight: 600;
+        display: block;
+    }
+    .about-long ul li i{
+        margin: 15px 12px;
+        color: #0D6EFD;
+
+    }
+/* about-logg css end */
+/* about-short css start */
+    .about-short{
+        width: 100%;
+        padding: 80px 0px;
+        background-color: #F2F2F2;
+    }
+    .about-short .title{
+        margin: 80px 0px 0px 0px;
+        }
+
+/* about-short css end */
+/* Testimonials css start */
+    .Testimonials{
+        width: 100%;
+        padding: 50px 0px;
+        background: url("../images/testi.png") center top no-repeat;
+        background-size: cover;
+    }
+    .Testimonials .title{
+        width: 100%;
+        text-align: center;
+    }
+    .Testimonials .title h1{
+        color: #fff;
+    }
+    .Testimonials .owl-carousel {
+        padding: 0px 0px;
+    }
+    .Testimonials h4{
+        width: 100%;
+        padding: 20px 0px 0px 0px;
+        font-style: italic;
+        margin-bottom: 30px;
+        color: #b4b4b4;
+        font-size: 23px;
+        line-height: 33px;
+
+    }
+    .Testimonials .item img{
+        width: 120%;
+        border-radius: 100%;
+    }
+    
+    .Testimonials h5{
+        width: 100%;
+        color: #b4b4b4;
+        margin: 10px 0px 0px 0px;
+        font-size: 20px;
+    }
+    .Testimonials p{
+        width: 100%;
+        color: #ededed;
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin: 10px 0px 7px 0px;
+        font-size: 20px;
+    }
+    .Testimonials .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top: 50px;
+    }
+    .Testimonials .owl-theme .owl-dots .owl-dot span{
+        margin: 25px 11px 0px 0px;
+        width: 18px;
+        height: 10;
+
+    }
+
+/* Testimonials css end */
+
+/* eye-cature css start here */
+    .eye-cature{
+        width: 100%;
+        padding: 50px 0px;
+        background-color: #010005;
+    }
+    .eye-cature h2{
+        width: 100%;
+        color: #fff;
+        font-size: 32px;
+        line-height: 42px;
+        font-weight: 600;
+    }
+    .eye-cature h2 span{
+        color: #b4b4b4;
+        font-weight:200;
+    }
+    .eye-cature .button-group{
+        width: 100%;
+        margin:0px;
+    }
+    .eye-cature .btn-Light{
+        padding: 14px 25px;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 600;
+        background-color: transparent;
+        color: #fff;
+        border: 1px solid #fff;
+        margin: 0px 0px 0px 0px;
+        transition: 2s;
+    }
+    .eye-cature .btn-Light:hover, .eye-cature .btn-Light:focus{
+        background-color: #0D6EFD;
+        }
+    .eye-cature .btn-primary{
+        padding: 14px 25px;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 600;
+        background-color: #0D6EFD;
+        margin: 0px 0px 0px 10px;
+        transition: 2s;
+
+    }
+    .eye-cature .btn-primary:hover, .eye-cature .btn-primary:focus{
+        background: transparent;
+        border: 1px solid #0D6EFD;
+    }
+
+/* eye-cature css end here */
+/* price css start here */
+    .price-plan{
+        width: 100%;
+        padding: 90px 0px;
+    }
+    .price-plan .title {
+        text-align: center;
+        padding: 0px 0px 0px 0px;
+    }
+    .price-plan .price{
+        width: 100%;
+        border: 1px solid #b4b4b4;
+        text-align: center;
+    }
+    .price-plan .price-head h4 {
+        width: 100%;
+        padding: 10px 0px;
+        text-transform: uppercase;
+        border-bottom: 1px solid #b4b4b4;
+        font-weight: 650;
+        /* letter-spacing: 2px; */
+        margin: 0px;
+        transition: 1s;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .price-plan .price:hover .price-head h4{
+        color: #0D6EFD;
+    }
+    .price-plan .inner-price{
+        width: 100%;
+        padding: 30px 0px;
+        border-bottom:1px solid #b4b4b4;
+        transition: 1s;
+    }
+    .price-plan .price:hover .inner-price{
+        color: #F2F2F2;
+        background-color: #0D6EFD;
+    }
+    .price-plan .inner-price h1{
+        font-size: 35px;
+        line-height: 45px;
+
+    } 
+    .price-plan .inner-price sup{
+        font-size: 25px;
+        font-weight: 500;
+
+    } 
+    .price-plan .inner-price p{
+        color: #b4b4b4;
+        font-weight:;
+        margin-top: -10px;
+        transition: 1s;
+    } 
+    .price-plan .price:hover .inner-price p{
+        color: #F2F2F2;
+        transition: 1s;
+    }
+    .price-plan .price-content  {
+        color: #b4b4b4;
+        padding: 35px 0px;
+    }
+    .price-plan .price-content p {
+        color: #b4b4b4;
+        padding: 0px 33px 20px 33px;
+    }
+
+    .price-plan .btn-primary {
+        padding: 14px 25px;
+        background-color: transparent;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 700;
+        color: #0D6EFD;
+        border-color: #b4b4b4;
+        transition: 1s;
+    }
+    .price-plan .price:hover .price-content .btn-primary{
+        color: #fff;
+        background-color: #0D6EFD;
+    }
+/* price css end here */
+/* contact css start here */
+    .contact{
+        width: 100%;
+        padding: 60px 0px ;
+        background-color: #ededed;
+        position: relative;
+    }
+    .contact .title{
+        text-align: center;
+    }
+    .contact .inner-box{
+        width: 100%;
+        text-align: center;
+        padding: 40px 80px;
+    }
+    .contact i{
+        width: 100%;
+        color: #0D6EFD;
+        font-size: 40px;
+        margin: 0px 0px 30px 0px;
+    }
+    .main-form {
+        width: 100%;
+        background-color: #15141a;
+        padding: 40px;
+        position: relative;
+        margin-bottom: 60px;
+        z-index: 1;
+    }
+    .main-form .form-control{
+        font-size: 16px;
+        padding: 10px;
+        border:1px solid #999;
+        color: #999;
+        background:transparent;
+
+    }
+    .main-form textarea{
+        color:#999 ;
+    }
+    .main-form .btn-primary{
+        padding: 14px 25px;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 600;
+        background-color: #0D6EFD;
+        margin: 0px 0px 0px 10px;
+        transition: 1s;
+        
+    }
+    .main-form  .btn-primary:hover , .main-form .btn-primary:focus {
+        color: #0D6EFD;
+        background-color: transparent;
+        border: 1px solid #0D6EFD;
+    }
+    .main-form .text-right{
+        text-align: right;
+    }
+    .map {
+        width: 100%;
+        position: relative;
+        z-index: 0;
+        margin-top: -119px;
+    }
+
+    /* contact css end here */
+
+    /* footer css start  */
+    .footer{
+        width: 100%;
+        padding: 40px;
+        background-color: #010005;
+        text-align: center;
+    }
+    .footer i{
+        margin-right: 20px;
+        color: #b4b4b4;
+        font-size: 20px;
+        transition: 1s;
+    }
+    .footer i:hover, .footer:focus{
+        margin-right: 10px;
+        color: #0D6EFD;
+        font-size: 22px;
+
+    }
+    .footer p{
+        width: 100%;
+        font-weight: 400;
+        color: #b4b4b4;
+    }
+/* footer css end */
+
+    /* global css for title start */
+    .title {
+        width: 100%;
+        padding: ;
+    }
+    .title h1 {
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 500;
+        margin: 0px;
+    }
+    .title h5{
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400;
+        color: #0D6EFD;
+        text-transform: uppercase;
+    }
+    p{
+        font-size: 16px;
+        line-height: 26px;
+        color: #b4b4b4;
+        font-weight: 600;
+    }
+    
+/* global css for title end */
+
+/* responsive css start here */
+
+    /* ******************************************
+        most of the smart-phone, mobile (320-480)
+    ******************************************* */
+    @media (min-width:320px) and (max-width:480px) {
+
+    /*  banner css responsive start here */
+        .banner{
+            width: 100%;
+            padding: 80px 0px;
+        }
+        .banner h1{
+            font-size: 30px;
+            line-height: 40px;
+        }
+        .banner p {
+            font-size: 14px;
+            line-height: 24px;
+            padding: 14px 0px;
+        }
+        .banner .button-group .btn-primary {
+            padding: 10px 15px;
+            font-size: 13px;
+            line-height: 23px;
+            margin: 0px 59px 15px 0px;
+        }
+        .banner .button-group .btn-Light {
+            padding: 10px 24px;
+            font-size: 13px;
+            line-height: 23px;
+            margin: 0px;
+        }
+    /* banner responsive start here */
+
+    /* features css responsive here */
+
+        .features .title {
+            width: 100%;
+            margin: 26px 0px ;
+            text-align: center;
+        }
+    /* features css responsive end here */
+
+    /* about-long css responsive start here */
+
+        .about-long {
+            width: 100%;
+            padding: 30px 0px;
+            margin: 0px 0px 0px 0px;
+        }
+        .about-long .long-img img {
+            width: 100%;
+        }
+        .about-long .title {
+            width: 100%;
+            margin: 20px 0px 0px 0px;
+            text-align: center;
+        }
+        .title h1 {
+            font-size: 25px;
+            line-height: 35px;
+        }
+        .about-long p {
+            margin: 10px 0px;
+        }
+        .about-long ul {
+            margin: 0px;
+        }
+        .about-long ul li {
+            font-size: 14px;
+            line-height: 24px;
+            margin: 0px;
+        }
+        .about-long ul li i {
+            margin: 10px 12px;
+        }
+
+    /* about-long css responsive endhere */
+
+    /* about-short css responsive start here */
+
+        .about-short {
+            padding: 0px 0px;
+        }
+        .about-short .title {
+            margin: 30px 0px 0px 0px;
+            text-align: center;
+        }
+        .about-short .short-img img{
+            width: 100%;
+        }
+
+    /* about-short css responsive end here */
+
+    /* Testimonials css responsive start here */
+
+        .Testimonials{
+            padding: 30px 0px;
+        }
+        .Testimonials .item img {
+            width: 22%;
+            border-radius: 100%;
+        }
+        .Testimonials .item h4{
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: 400;
+        }
+            .banner .button-group .btn-primary {
+            padding: 10px 15px;
+            font-size: 13px;
+            line-height: 23px;
+            margin: 0px 59px 15px 0px;
+        }
+        .banner .button-group .btn-Light {
+            padding: 10px 24px;
+            font-size: 13px;
+            line-height: 23px;
+            margin: 0px;
+        }
+
+    /* Testimonials css responsive end here */
+
+    /* eye-cature css responsive start here */
+
+        .eye-cature{
+            padding:30px 0px;
+        }
+        .eye-cature h2 {
+            font-size: 24px;
+            line-height: 34px;
+        }
+        .eye-cature .button-group .btn-Light {
+            padding: 10px 24px;
+            font-size: 13px;
+            line-height: 23px;
+            margin: 10px 57px 15px 0px;
+        }
+        .eye-cature .button-group .btn-primary {
+            padding: 10px 15px;
+            font-size: 13px;
+            line-height: 23px;
+            margin: 0px 0px 0px 0px;
+        }
+    /* eye-cature css responsive end here */
+
+    /* price-plan css responsive start here */
+
+        .price-plan {
+            width: 100%;
+            padding: 30px 0px;
+        }
+        .price-plan .price {
+            margin: 20px 0px;
+        }
+
+    /* price-plan css responsive end here */
+
+        /* contact css responsive start here */
+
+            .contact{
+                padding: 30px 0px;
+            }
+            .contact .inner-box {
+                width: 100%;
+                text-align: center;
+                padding: 18px 36px;
+            }
+            .contact .btn-primary {
+                padding: 10px 15px;
+                font-size: 13px;
+                line-height: 23px;
+                margin: 0px auto;
+                text-align: center;
+                margin: 0px 65px 54px 0px;
+            }
+            .contact .main-form {
+                width: 100%;
+                background-color: #15141a;
+                padding: 0px;
+                position: relative;
+                z-index: 1;
+                margin-left: 8px;
+            }
+    /* contact css responsive end here */
+
+    /* footer css responsive here */
+        
+        .footer{
+            padding: 0px;
+        }
+        .footer i {
+            margin: 20px;
+            font-size: 20px;
+            line-height: 30pxs;
+        }
+    /* footer css responsive here */
+
+    /* global css for title Responsive start */
+        .title {
+            width: 100%;
+            padding: ;
+        }
+        .title h5 {
+            font-size: 15px;
+            line-height: 25px;
+            font-weight: 400;
+            margin: 0px;
+        }
+        .title h1 {
+            font-size: 24px;
+            line-height: 34px;
+            font-weight: 500;
+            margin: 0px;
+        }
+        p{
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: 500;
+        }
+    
+    /* global css for title Responsive end */
+    }
+
+    /* ******************************************
+        most of the low rasulation mobile ,tablets (481-767)
+    ******************************************* */
+
+        @media (min-width:481px) and (max-width:767px) {
+        /*  banner css responsive start here */
+        .banner{
+            width: 100%;
+            padding: 80px 0px;
+        }
+        .banner h1{
+            font-size: 32px;
+            line-height: 42px;
+        }
+        .banner p {
+            font-size: 16px;
+            line-height: 26px;
+            padding: 14px 0px;
+        }
+    /* banner responsive start here */ 
+
+    /* features css responsive start here */
+
+        .features .inner-features h4 {
+            font-size: 28px;
+            line-height: 38px;
+            margin: 20px 0px 20px 0px;
+        }
+        .features .inner-features p {
+            font-size: 21px;
+            line-height: 31px;
+            margin: 20px 0px 20px 0px;
+        }
+        .inner-features {
+            padding: 35px 11px;
+        }
+
+    /* features css responsive end here */
+
+    /* about-lond css responsive here */
+
+        .about-long {
+            padding: 0px 0px;
+            margin: 0px 0px 0px 0px;
+        }
+        .about-long .long-img  img{
+            width: 100%;
+        }
+
+    /* abount-ling css responsive end here */
+
+    /* about-short css responsive here */
+
+    .about-short{
+        padding: 40px;
+    }
+    .about-short .short-img img{
+        width: 100%;
+    }
+    .about-short .title {
+        margin: 0px 0px 20px 0px;
+        text-align: center;
+    }
+
+    /* about-short css end here */
+        /* Testimonials css responsive start here */
+
+        .Testimonials{
+            padding: 40px 0px;
+        }
+        .Testimonials .item img {
+            width: 32%;
+            border-radius: 100%;
+        }
+        .Testimonials .item h4{
+            font-size: 22px;
+            line-height: 32px;
+            font-weight: 500;
+        }
+        .Testimonials .button-group .btn-primary {
+            padding: 10px 15px;
+            font-size: 13px;
+            line-height: 23px;
+            margin: 0px 59px 15px 0px;
+        }
+        .Testimonials .button-group .btn-Light {
+            padding: 10px 24px;
+            font-size: 13px;
+            line-height: 23px;
+            margin: 0px;
+        }
+
+    /* Testimonials css responsive end here */
+    
+    /* price-plan css responsive start here */
+
+    .price-plan {
+        width: 100%;
+        padding: 40px 65px;
+    }
+    .price-plan .price {
+        margin: 25px 0px;
+    }
+
+    /* price-plan css responsive end here */
+
+    /* contact css responsive start here */
+
+        .contact{
+            padding: 40px 0px;
+        }
+        .contact .inner-box {
+            padding: 18px 36px;
+        } 
+        .contact .inner-box {
+            padding: 50px 0px 0px 0px;
+        }  
+        .contact .inner-box p{
+            font-size: 20px;
+            line-height: 30px;
+        }
+        .contact .main-form .btn-primary{
+            margin:0px 100px
+        }
+        .main-form {
+            width: 100%;
+            background-color: #15141a;
+            position: relative;
+            z-index: 1;
+            margin-left: 12px;
+        }
+
+    /* contact css responsive end here */
+
+    /* global css for title Responsive start */
+    .title {
+        width: 100%;
+        padding: ;
+    }
+    .title h5 {
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400;
+        margin: 0px;
+    }
+    .title h1 {
+        font-size: 26px;
+        line-height: 36px;
+        font-weight: 500;
+        margin: 0px;
+    }
+    p{
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 500;
+    }
+
+    /* global css for title Responsive end */
+}
+
+/* ******************************************
+        Tablets, I-Pad, Notebooks (768-1024) start
+******************************************* */
+        @media (min-width:768px) and (max-width:1024px) {
+        
+        /*  banner css responsive start here */
+        .banner{
+            width: 100%;
+            padding: 80px 0px;
+        }
+        .banner h1{
+            font-size: 32px;
+            line-height: 42px;
+        }
+        .banner p {
+            font-size: 16px;
+            line-height: 26px;
+            padding: 14px 0px;
+        }
+    /* banner responsive start here */ 
+
+    /* features css responsive start here */
+
+        .features .inner-features h4 {
+            font-size: 28px;
+            line-height: 38px;
+            margin: 20px 0px 20px 0px;
+        }
+        .features .inner-features p {
+            font-size: 14px;
+            line-height: 24px;
+            margin: 14px 0px 15px 0px;
+        }
+        .inner-features {
+            padding: 35px 11px;
+        }
+
+    /* features css responsive end here */
+
+    /* about-lond css responsive here */
+
+        .about-long {
+            padding: 0px 0px;
+            margin: 0px 0px 0px 0px;
+        }
+        .about-long .title {
+            margin: 0px 0px 20px 0px;
+            text-align: center;
+        }
+        .about-long .long-img img{
+            width: 100%;
+        }
+
+    /* abount-ling css responsive end here */
+
+    /* about-short css responsive here */
+
+    .about-short{
+        padding: 40px;
+    }
+    .about-short .title {
+        margin: 0px 0px 20px 0px;
+        text-align: center;
+    }
+    .about-short .short-img img{
+        width: 100%;
+    }
+
+    /* about-short css end here */
+        /* Testimonials css responsive start here */
+
+        .Testimonials{
+            padding: 40px 0px;
+        }
+        .Testimonials .item img {
+            width: 100%;
+            border-radius: 100%;
+            margin: -11px 10px -6px 181px;
+
+
+
+        }
+        .Testimonials .item h5{
+            font-size: 22px;
+            line-height: 32px;
+            font-weight: 500;
+            margin: 0px 59px 15px 180px;
+        }
+        .Testimonials .item p{
+            margin: 0px 59px 15px 180px;
+            font-size: 20px;
+        }
+        
+        .Testimonials .button-group .btn-primary {
+            padding: 10px 15px;
+            font-size: 13px;
+            line-height: 23px;
+            margin: 0px 59px 15px 0px;
+        }
+        .Testimonials .button-group .btn-Light {
+            padding: 10px 24px;
+            font-size: 13px;
+            line-height: 23px;
+            margin: 0px;
+        }
+
+    /* Testimonials css responsive end here */
+    
+    /* price-plan css responsive start here */
+
+    .price-plan {
+        width: 100%;
+        padding: 40px 0px;
+    }
+    .price-plan .price {
+        margin: 25px 0px;
+    }
+
+    /* price-plan css responsive end here */
+
+    /* contact css responsive start here */
+
+        .contact{
+            padding: 40px 0px;
+        }
+        .contact .inner-box {
+            padding: 50px 0px 0px 0px;
+        }  
+        .contact .inner-box p{
+            font-size: 10px;
+            line-height: 20px;
+        }
+        .contact .main-form .btn-primary{
+        }
+
+    /* contact css responsive end here */
+
+    /* global css for title Responsive start */
+    .title {
+        width: 100%;
+        padding: ;
+    }
+    .title h5 {
+        font-size: 18px;
+        line-height: 40px;
+        font-weight: 400;
+        margin: 0px;
+    }
+    .title h1 {
+        font-size: 33px;
+        line-height: 43px;
+        font-weight: 500;
+        margin: 0px;
+    }
+    .features .inner-features p {
+        font-size: 17px;
+        line-height: 27px;
+        margin: 14px 0px 15px 0px;
+    }
+
+    /* global css for title Responsive end */
+        
+        }
+
+/* ******************************************
+        Tablets, I-Pad, Notebooks (769-1024) end
+*******************************************/
+
+    
+/* ******************************************
+        Laptop,computer (1025-1280)
+    ******************************************* */
+        @media (1025px) and (1280px) {
+
+        }
+/* responsive css end here */
+/* lucid css end Here */
